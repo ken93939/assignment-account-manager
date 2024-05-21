@@ -1,0 +1,4 @@
+INSERT INTO CUSTOMER (id, user_name, password) VALUES ('f559a811-6f7f-46fc-9ece-a1005fa0197c', 'test1', '{noop}test1234');
+INSERT INTO CUSTOMER (id, user_name, password) VALUES ('73cda79c-809b-4b34-83e5-381dec93f931', 'test2', '{noop}test1234');
+INSERT INTO ACCOUNT VALUES ('12345678', 1000000, 'f559a811-6f7f-46fc-9ece-a1005fa0197c');
+INSERT INTO ACCOUNT VALUES('88888888', 1000000, '73cda79c-809b-4b34-83e5-381dec93f931');
